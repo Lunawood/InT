@@ -1,0 +1,92 @@
+.entire{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+  margin: 0 0 0 0;
+}
+
+.goback {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.schoolCheckTitle1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 7.38rem 0 0.313rem 2.25rem;
+  text-align: left;
+}
+
+.schoolCheckTitle2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0 2.25rem;
+  text-align: left;
+}
+
+.schoolCheck_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+}
+
+.sendAlert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ECF6FF;
+  border: 1px solid #0068FF;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  margin: 2.25rem 0 0 0;
+  width: 18.5rem;
+  height: 6.125rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.schoolCheck_checkButton {
+  background-color: #fff;
+  color: #64B0EE;
+  width: 11.5rem;
+  height: 2.125rem;
+  border: 1px solid #64B0EE;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin-top: 1.875rem;
+}
+
+#schoolCheck_message {
+  font-size: 0.625rem;
+  margin: 0.438rem 0 0 0;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.identifyFail {
+  color: #ff0000;
+}
+
+.identifySuccess{
+  color: #0068FF;
+}
+
+.nextCheckButton{
+  background-color: #fff;
+  width: 18.438rem;
+  height: 2.625rem;
+  margin: 7.625rem 0 0 0;
+  border: 1.5px solid #0068ff;
+  border-radius: 10px;
+  color: #0068ff;
+  font-weight: 700;
+  font-size: 1rem;
+}

@@ -1,0 +1,108 @@
+.mam_goback {
+    width: 1.5rem;
+    height: 1.5rem;
+    position:absolute;
+    top: 3.813rem;
+    left: 1.313rem;
+}
+
+.mam_Button {
+    display: flex; /* Flexbox를 사용하여 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    position: absolute;
+    top: 3.813rem;
+    right: 1.688rem;
+    width: 3.56rem;
+    height: 1.625rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    pointer-events: auto; /* Ensure pointer events are enabled */
+}
+
+
+.mam_alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 19.375rem;
+    text-align: center;
+    background-color: #ECF6FF;
+    border-radius: 0.625rem;
+}
+
+.mam_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 7rem;
+    width: 18.75rem;
+    text-align: center;
+}
+
+.mam_infoTitle {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.563rem 0 0 0.875rem;
+}
+
+.mam_infoImg {
+    width:1rem;
+    height: 1rem;
+}
+
+.mam_infoText {
+    margin: 0 0 0 0.313rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.mam_infoSubtext {
+    font-size: 0.625rem;
+    text-align: left;
+    margin: 1rem 0 0 1.031rem;
+}
+  
+.mam_selectedCourse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.813rem;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.1rem 0.3rem;
+    border: 1px solid #007bff;
+    border-radius: 0.375rem;
+    background-color: white;
+    margin-left: 10px;
+  }
+  
+.mam_selectedCoursesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.mam_selectedCoursesContainer > span {
+    font-size: 0.8rem;
+    margin-left: 0.55rem;
+}
+
+.mam_selected_course_span {
+    font-size: 0.5rem;
+}
+
+.mam_timetable {
+    width: 19.375rem;
+    height: 20rem;
+    background-color: #f2f2f2;
+    border-radius: 0.625rem;
+    overflow: auto;
+    margin: 0.625rem 0 0 0;
+}

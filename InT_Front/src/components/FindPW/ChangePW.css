@@ -1,0 +1,59 @@
+.new-container {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 3.688rem;
+}
+
+.next-container {
+  margin-top: 2.75rem;
+}
+
+.change-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-container .password-input {
+  height: 2.5rem;
+  font-size: 0.813rem;
+  padding: 0;
+  width: 16rem;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  margin-right: 0.875rem;
+  margin-bottom: 0.438rem;
+}
+.check-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.info-container {
+  display: flex;
+  width: 100%;
+  text-align: left;
+}
+.info-img {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.5rem;
+}
+.info-span {
+  color: #0068ff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.pw-label {
+  text-align: left;
+}
+
+.error-text {
+  display: block;
+  width: 100%;
+  text-align: left;
+}

@@ -1,0 +1,32 @@
+.homeTimetable_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    margin: 0 0 0 0;
+}
+
+.homeTimetable_title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 5.688rem 0 1.875rem 1.875rem;
+    text-align: left;
+}
+
+.homeTimetable_content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTimetable_content2 {
+    font-size: 1rem;
+    width: 19.063rem;
+    height: 26.25rem;
+    background-color: #ECF6FF;
+    color: black;
+    border-radius: 0.625rem;
+    overflow: auto;
+}

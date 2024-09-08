@@ -1,0 +1,32 @@
+.tasteMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: opacity 1s;
+}
+
+.tasteMain.fade-out {
+  opacity: 0;
+}
+
+.tasteMain_calenderImg {
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: 9.88rem 0 0;
+}
+
+.tasteMain_title1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.875rem 0 0;
+}
+
+.tasteMain_title2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#s {
+  margin-top: 2.063rem;
+}

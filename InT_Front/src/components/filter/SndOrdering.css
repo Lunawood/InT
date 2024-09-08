@@ -1,0 +1,103 @@
+.ordering_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.goback {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.ordering_title1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 7.375rem 0 0.313rem 2.25rem;
+  text-align: left;
+}
+
+.ordering_title2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0 2.25rem;
+  text-align: left;
+}
+
+.ordering_line {
+  width: 18.75rem;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 2.313rem;
+}
+
+.ordering_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.875rem 0 0;
+}
+
+.ordering_courseInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20rem;
+  height: 15rem;
+}
+
+.ordering_selectWrapper {
+  position: relative;
+  width: 18.75rem;
+  margin: 0.5rem 0;
+}
+
+.ordering_select {
+  margin-bottom: 1.438rem;
+  width: 15.625rem;
+  height: 2.5rem;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  border: 1px solid #0068ff;
+  border-radius: 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  z-index: 1;
+}
+
+.ordering_selectWrapper:focus-within .ordering_triangle,
+.ordering_selectWrapper .ordering_triangle {
+  position: absolute;
+  top: 30%;
+  right: 2.2rem;
+  transform: translateY(-50%);
+  width: 0.7rem;
+  height: 0.7rem;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.ordering_nextButton {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  color: #0068ff;
+  border: 1.5px solid #0068ff;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  width: 18.438rem;
+  height: 2.625rem;
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
+}

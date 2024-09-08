@@ -1,0 +1,82 @@
+.emptyClass_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+  margin: 3.188rem 0 0 0;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  position: relative;
+}
+
+.progress3 {
+  width: 100%;
+  height: 100%;
+  background-color: #007bff;
+}
+
+.emptyClass_title{
+  margin: 2.5rem 0 0 1.875rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.emptyClass_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.emptyClass_infoImg{
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 1.125rem 0 0 1.875rem;
+}
+
+.emptyClass_infoTxt {
+  font-size: 0.75rem;
+  margin: 1rem 0 0 0.375rem;
+}
+
+.emptyClass_line {
+  height: 0.125rem;
+  width: 18.75rem;
+  background-color: #000;
+  margin: 2.75rem 0 0 1.875rem;
+}
+
+.emptyClass_buttonContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 4.25rem 0 0 2.375rem;
+}
+
+.emptyClass_btn {
+  width: 17.75rem;
+  height: 4.75rem;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  margin: 0 0 3.438rem 0;
+}
+
+.emptyClass_btn:hover {
+  border: 1px solid #0068ff;
+  color: #0068ff;
+}

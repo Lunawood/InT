@@ -1,0 +1,118 @@
+.result-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.yes-message {
+  display: block;
+  margin-bottom: 2.5rem;
+  margin-top: 4.6875rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.result-content > img {
+  height: 3.125rem;
+  width: 3.125rem;
+  margin-top: 6.5rem;
+}
+
+.no-message {
+  display: block;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+}
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  width: 15.625rem;
+  margin-bottom: 1.188rem;
+}
+
+.info-item div {
+  border: 0.0625rem solid #64b0ee;
+  border-radius: 1.875rem;
+  font-weight: bold;
+  color: #64b0ee;
+  width: 4.1875rem;
+  height: 2.125rem;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.9375rem;
+}
+
+.info-item span {
+  width: 10.625rem;
+  margin-left: 0.938rem;
+  flex-grow: 1;
+  text-align: left;
+  border-bottom: 0.0625rem solid #ccc;
+  padding-bottom: 0.3125rem;
+  padding: 0.209375rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3.25rem;
+}
+
+.reset-button {
+  padding: 0.625rem 1.25rem;
+  border: 1.5px solid #ccc;
+  background-color: #fff;
+  color: #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 8.75rem;
+  height: 2.625rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.login-button-result {
+  padding: 0.625rem 1.25rem;
+  border: 1.5px solid #0068ff;
+  background-color: white;
+  color: #0068ff;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 2.625rem;
+  width: 8.75rem;
+  font-size: 14px;
+}
+
+.join-button {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  color: #007bff;
+  border: 1.5px solid #007bff;
+  margin-top: 4.563rem;
+  width: 18.438rem;
+  height: 2.625rem;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+}

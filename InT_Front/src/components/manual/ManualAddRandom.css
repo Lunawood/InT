@@ -1,0 +1,232 @@
+.mar_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+}
+
+.mar_dropdown {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+}
+
+.mar_dropdown button {
+  font-size: 0.75rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.625rem;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.25rem;
+  height: 1.5rem; /* 고정된 높이 */
+  margin: 0 0.313rem 0 0.313rem;
+  white-space: nowrap;
+}
+
+.mar_dropdown button span {
+  margin-left: 0.313rem; /* 세모(caret)와 글자 사이의 간격 */
+}
+
+.mar_dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px); /* 버튼 바로 아래에 위치하도록 설정 */
+  left: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2000; /* 메뉴가 상위에 표시되도록 설정 */
+  font-size: 0.5rem;
+  font-weight: regular;
+  max-height: 50px; /* 스크롤바 추가를 위한 최대 높이 설정 */
+  overflow-y: auto; /* 스크롤바 활성화 */
+  overflow-x: hidden; /* 가로 스크롤바 숨기기 */
+}
+
+.mar_dropdown-menu li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.mar_dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.mar_dropdown-menu li:hover {
+  background-color: #e0e0e0;
+}
+
+.mar_dropdown-menu input[type="radio"] {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 10px;
+  accent-color: #007bff;
+}
+
+.mar_dropdown-menu input[type="radio"]:checked::before {
+  background-color: #007bff;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0 0 0 0;
+}
+
+.mar_dropdown-menu label {
+  margin: 0;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.mar_title {
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 6.813rem 0 0 2rem;
+}
+
+.mar_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mar_line {
+  width: 18.75rem;
+  height: 0.125rem;
+  background-color: #000;
+  margin: 1.063rem 0 0.688rem 0;
+}
+
+.mar_majorTtile,
+.mar_liberalTtile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 17.75rem;
+  margin: 1.438rem 0 0.813rem 0;
+}
+
+.mar_majorText,
+.mar_liberalText {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0.688rem 0 0;
+}
+
+.mar_majorImg,
+.mar_liberalImg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.mar_majorContent,
+.mar_liberalContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  height: 6.25rem;
+  background-color: #e6e6e6;
+  border-radius: 0.625rem;
+  font-size: 0.875rem;
+}
+
+.mar_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 17rem;
+  height: 2.5rem;
+  background-color: #fff;
+  border: 1.5px solid #007bff;
+  border-radius: 0.5rem;
+  color: #007bff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 2.375rem 0.188rem 0 0.188rem;
+}
+
+.mar_button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.conditions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  height: 6.25rem;
+  overflow: auto;
+}
+
+.condition-box1 {
+  width: 18.75rem;
+  height: 4.25rem; /* 고정된 높이 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  border: 1px solid #007bff;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+  margin: 0 0 0.75rem 0;
+  font-size: 0.7rem;
+}
+
+.condition-box2 {
+  width: 18.75rem;
+  height: 1.875rem; /* 고정된 높이 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  border: 1px solid #007bff;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+  margin: 0 0 0.75rem 0;
+  font-size: 0.7rem;
+}
+
+.mar_major1,
+.mar_major2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 18.75rem;
+}
+
+.mar_major2 {
+  margin: 0.75rem 0 0 0;
+}
+
+.mar_liberal1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 18.75rem;
+  height: 1.875rem;
+}
+
+.remove {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.563rem 0 0.688rem;
+}

@@ -1,0 +1,51 @@
+.sfl_container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  transition: opacity 1s;
+}
+
+.sfl_container.fade-out {
+  opacity: 0;
+}
+
+.sfl_filter {
+  margin-top: 9.156rem;
+  width: 3.125rem; /* Adjust the width as needed */
+  height: 3.125rem; /* Maintain aspect ratio */
+}
+
+.sfl_main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.sfl_main_first {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sfl_main_second {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sfl_sub {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.188rem;
+  text-align: center;
+}
+
+.sfl_sub_first {
+  font-size: 0.875rem;
+}
+
+.sfl_sub_second {
+  font-size: 0.875rem;
+}
